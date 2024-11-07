@@ -16,3 +16,8 @@
 ### 修改成 utf-8 编码
 
 ![image](https://github.com/user-attachments/assets/e96d218f-1a2b-4594-8857-16b18d2cc552)
+
+### 使用 chardet 库
+chardet检测出当前页面编码类型之后，再使用该类型编码
+![image](https://github.com/user-attachments/assets/9cef737a-3396-447a-bbec-b80c523b6e8f)
+
