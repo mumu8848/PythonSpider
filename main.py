@@ -18,7 +18,7 @@ result1 = html.xpath('/html/head/title')
 print('节点层级定位结果：',result1)
 
 result2 = html.xpath('title')
-print('名称定位 title 节点结果：',result2)
+print('名称定位 title 节点结果：',result2)#
 
 result3 = html.xpath('//title')
 print('搜索定位 title 节点结果：',result3)
