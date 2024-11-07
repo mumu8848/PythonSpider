@@ -2,8 +2,9 @@
 
 ## urllib3库 使用效果截图
 
-![1730963398632](E:\WeChat Files\wxid_mk32dpbfby7s22\FileStorage\Temp\1730963398632.jpg)
+![1730963885637](https://github.com/user-attachments/assets/ac1297ed-0bb5-48af-88ab-edc515ed0e7a)
+
 
 ## requests库 使用效果截图
 
-![1730963466117](E:\WeChat Files\wxid_mk32dpbfby7s22\FileStorage\Temp\1730963466117.jpg)
+![image](https://github.com/user-attachments/assets/3e5c565b-cca5-4c3a-b1a1-738069c33d54)
