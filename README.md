@@ -21,3 +21,5 @@
 chardet检测出当前页面编码类型之后，再使用该类型编码
 ![image](https://github.com/user-attachments/assets/9cef737a-3396-447a-bbec-b80c523b6e8f)
 
+### 设置 timeout 时间过短会报错
+![image](https://github.com/user-attachments/assets/ca6b936c-eddb-4115-ba3d-c8881de26654)
