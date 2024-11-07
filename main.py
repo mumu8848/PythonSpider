@@ -1,14 +1,9 @@
 import requests
 from lxml import etree
 
-url = 'http://www.baidu.com'
-ua = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-                   'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'}
+local_html = etree.parse('./test.html',etree.HTMLParser(encoding='utf-8'))
 
-rqg = requests.get(url,headers = ua)
-rqg.encoding = 'utf-8'
-html = etree.HTML(rqg.text,parser=etree.HTMLParser(encoding='utf-8'))
+result_local = etree.tostring(local_html)
+print('本地 html 文件：\n',result_local)
 
-result = etree.tostring(html,encoding='utf-8',pretty_print=True,method='html')
-
-print('修正后的HTML对象：',result)
+print('\n格式化后的 html 文件：\n',result_local.decode('utf-8'))
