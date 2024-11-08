@@ -39,3 +39,6 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 ![image](https://github.com/user-attachments/assets/b9075737-1e2b-4648-b391-41de3fd875da)
 
 
+## BeautifulSoup 库的使用
+使用 BeautifulSoup 库对目标网站进行格式化输出
+![image](https://github.com/user-attachments/assets/4d9118ba-ce0b-4b8b-9b38-e05709b2b075)
