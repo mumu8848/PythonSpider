@@ -23,3 +23,10 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 
 ### 设置 timeout 时间过短会报错
 ![image](https://github.com/user-attachments/assets/ca6b936c-eddb-4115-ba3d-c8881de26654)
+
+## xpath 使用效果
+Xpath常用的谓语表达式
+![image](https://github.com/user-attachments/assets/8678adfe-ffc2-40ba-99cb-84c9146d22d1)
+实际代码执行效果
+![image](https://github.com/user-attachments/assets/03b9eb35-c5b3-4040-b6dc-424e6cf63fd1)
+
