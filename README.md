@@ -35,7 +35,7 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 实际的代码执行效果
 ![image](https://github.com/user-attachments/assets/18dba6f9-717b-40a2-908e-231e60482ae3)
 
-提取52破解网站首页ul节点下的所有文本内容和对应链接
+- 提取52破解网站首页ul节点下的所有文本内容和对应链接
 ![image](https://github.com/user-attachments/assets/b9075737-1e2b-4648-b391-41de3fd875da)
 
 
