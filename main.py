@@ -14,5 +14,9 @@ rqg.encoding = chardet.detect(rqg.content)['encoding']
 html = rqg.text
 soup = BeautifulSoup(html,'lxml')
 
-print('输出格式化的 BeautifulSoup 对象：',soup.prettify())
+# print('输出格式化的 BeautifulSoup 对象：',soup.prettify())
+print('获取<head>标签：',soup.head)
+print('获取<title>标签：',soup.title)
+print('获取第一个<a>标签：',soup.body.a)
+print('输出所有名称为 a 的标签的个数',len(soup.find_all('a')))
 
