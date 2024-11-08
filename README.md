@@ -23,3 +23,19 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 
 ### 设置 timeout 时间过短会报错
 ![image](https://github.com/user-attachments/assets/ca6b936c-eddb-4115-ba3d-c8881de26654)
+
+## xpath 使用效果
+- Xpath常用的谓语表达式
+![image](https://github.com/user-attachments/assets/8678adfe-ffc2-40ba-99cb-84c9146d22d1)
+实际代码执行效果
+![image](https://github.com/user-attachments/assets/03b9eb35-c5b3-4040-b6dc-424e6cf63fd1)
+
+- Xpath常用的功能函数
+![image](https://github.com/user-attachments/assets/4ab711ed-f4f1-439a-b6b6-7410d2dab829)
+实际的代码执行效果
+![image](https://github.com/user-attachments/assets/18dba6f9-717b-40a2-908e-231e60482ae3)
+
+- 提取52破解网站首页ul节点下的所有文本内容和对应链接
+![image](https://github.com/user-attachments/assets/b9075737-1e2b-4648-b391-41de3fd875da)
+
+
