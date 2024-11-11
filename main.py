@@ -14,8 +14,9 @@ rqg.encoding = chardet.detect(rqg.content)['encoding']
 html = rqg.text
 soup = BeautifulSoup(html,'lxml')
 
-print('soup 的类型：',type(soup))
-print('BeautifulSoup 对象的特殊 name 属性：',soup.name)
-print('soup.name 的类型：',type(soup.name))
-print('BeautifulSoup 对象的 attributes 属性：',type(soup.attrs))
+markup = '<c><!--This is a markup --></b>'
+soup_comment = BeautifulSoup(markup,'lxml')
+comment = soup_comment.c.string
+print('注释的内容：',comment)
+print('注释的类型：',type(comment))
 
