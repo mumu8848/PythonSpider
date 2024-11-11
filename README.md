@@ -42,3 +42,30 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 ## BeautifulSoup 库的使用
 使用 BeautifulSoup 库对目标网站进行格式化输出
 ![image](https://github.com/user-attachments/assets/4d9118ba-ce0b-4b8b-9b38-e05709b2b075)
+### 测试 BeautifulSoup 库的对象类型 Tag
+![image](https://github.com/user-attachments/assets/cebd1a26-2d7c-45d0-8fe4-0c24022d7caa)
+- Tag的name属性
+![image](https://github.com/user-attachments/assets/40da7a77-560e-48b6-8d33-0a8e219b4808)
+- Tag的attributes属性
+- ![image](https://github.com/user-attachments/assets/e759d616-0f56-4884-b131-2f05925652b8)
+
+### find_all() 方法
+函数声明
+```
+BeautifulSoup.find_all(name=None, attrs={}, recursive=True, string=None,
+limit=None, **kwargs)
+```
+![image](https://github.com/user-attachments/assets/53207d94-fc98-4d66-8683-38d9963db997)
+
+代码执行效果
+![image](https://github.com/user-attachments/assets/37a9f346-8b9c-4099-86c2-c429032b2211)
+
+### select() 方法
+函数声明
+```
+BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
+```
+![image](https://github.com/user-attachments/assets/e56cff81-9a2e-4929-a98f-b56875973ebb)
+代码执行效果
+![image](https://github.com/user-attachments/assets/d9518885-ca36-4f39-9b15-6cd1ea0fbc52)
+
