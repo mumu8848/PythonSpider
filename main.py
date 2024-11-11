@@ -14,9 +14,8 @@ rqg.encoding = chardet.detect(rqg.content)['encoding']
 html = rqg.text
 soup = BeautifulSoup(html,'lxml')
 
-tag = soup.title
-print('Tag 对象中包含的字符串：',tag.string)
-print('tag.string 的类型：',type(tag.string))
-tag.string.replace_with('谷歌搜索')
-print('替换后的内容：',tag.string)
+print('soup 的类型：',type(soup))
+print('BeautifulSoup 对象的特殊 name 属性：',soup.name)
+print('soup.name 的类型：',type(soup.name))
+print('BeautifulSoup 对象的 attributes 属性：',type(soup.attrs))
 
