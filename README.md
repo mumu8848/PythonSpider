@@ -60,5 +60,12 @@ limit=None, **kwargs)
 代码执行效果
 ![image](https://github.com/user-attachments/assets/37a9f346-8b9c-4099-86c2-c429032b2211)
 
-
+### select() 方法
+函数声明
+```
+BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
+```
+![image](https://github.com/user-attachments/assets/e56cff81-9a2e-4929-a98f-b56875973ebb)
+代码执行效果
+![image](https://github.com/user-attachments/assets/d9518885-ca36-4f39-9b15-6cd1ea0fbc52)
 
