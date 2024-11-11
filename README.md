@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/60ec67bb-39b9-47b8-83c4-8781f7010ad5)# PythonSpider
+# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -48,5 +48,17 @@ chardet检测出当前页面编码类型之后，再使用该类型编码
 ![image](https://github.com/user-attachments/assets/40da7a77-560e-48b6-8d33-0a8e219b4808)
 - Tag的attributes属性
 - ![image](https://github.com/user-attachments/assets/e759d616-0f56-4884-b131-2f05925652b8)
+
+### find_all() 方法
+函数声明
+```
+BeautifulSoup.find_all(name=None, attrs={}, recursive=True, string=None,
+limit=None, **kwargs)
+```
+![image](https://github.com/user-attachments/assets/53207d94-fc98-4d66-8683-38d9963db997)
+
+代码执行效果
+![image](https://github.com/user-attachments/assets/37a9f346-8b9c-4099-86c2-c429032b2211)
+
 
 
