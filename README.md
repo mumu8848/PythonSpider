@@ -78,3 +78,27 @@ BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
 代码运行效果
 ![image](https://github.com/user-attachments/assets/cb23ea09-e5dd-4fcd-ab34-6b586de1b93f)
 
+## 数据存储
+### JSON-将数据存储为JSON文件
+`json`库中的关键函数
+- dump函数 和 dumps函数
+![image](https://github.com/user-attachments/assets/4ec4dbd3-0127-49dc-b369-7159cfc0cb6c)
+
+代码运行效果：
+
+
+
+### MYSQL-将数据存储到MySQL数据库
+`pymysql`库中的关键函数 
+`connect`函数
+- 函数声明
+  ```
+pymysql.connect(user=None, password="", host=None, database=None, port=0,
+charset="", connect_timeout=10,…) 
+  ```
+`connect`函数的常用参数以及相关说明
+![image](https://github.com/user-attachments/assets/23d3516b-19c6-432a-8dd3-3e9a3ff3fc88)
+
+代码运行效果：
+
+
