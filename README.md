@@ -92,10 +92,12 @@ BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
 `pymysql`库中的关键函数 
 `connect`函数
 - 函数声明
-  ```
+
+```
 pymysql.connect(user=None, password="", host=None, database=None, port=0,
 charset="", connect_timeout=10,…) 
-  ```
+```
+
 `connect`函数的常用参数以及相关说明
 ![image](https://github.com/user-attachments/assets/23d3516b-19c6-432a-8dd3-3e9a3ff3fc88)
 
