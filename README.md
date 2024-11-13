@@ -69,3 +69,12 @@ BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
 代码执行效果
 ![image](https://github.com/user-attachments/assets/d9518885-ca36-4f39-9b15-6cd1ea0fbc52)
 
+## 正则表达式
+正则表达式是通用型语法，不局限于`python`，其它语言也经常会使用到。这部分主要是介绍在`python`中的正则表达式模块。
+
+- 常见符号及其描述 
+![image](https://github.com/user-attachments/assets/975b02ab-90c6-4a31-8dab-29d6a4045c65)
+
+代码运行效果
+![image](https://github.com/user-attachments/assets/cb23ea09-e5dd-4fcd-ab34-6b586de1b93f)
+
