@@ -75,4 +75,6 @@ BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
 - 常见符号及其描述 
 ![image](https://github.com/user-attachments/assets/975b02ab-90c6-4a31-8dab-29d6a4045c65)
 
+代码运行效果
+![image](https://github.com/user-attachments/assets/cb23ea09-e5dd-4fcd-ab34-6b586de1b93f)
 
