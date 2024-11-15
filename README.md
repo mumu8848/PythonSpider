@@ -85,6 +85,8 @@ BeautifulSoup.select(selector, namespaces=None, limit=None, **kwargs)
 ![image](https://github.com/user-attachments/assets/4ec4dbd3-0127-49dc-b369-7159cfc0cb6c)
 
 代码运行效果：
+![image](https://github.com/user-attachments/assets/6140437c-e416-4bc6-b452-d633fd1dc510)
+
 
 
 
@@ -102,5 +104,6 @@ charset="", connect_timeout=10,…)
 ![image](https://github.com/user-attachments/assets/23d3516b-19c6-432a-8dd3-3e9a3ff3fc88)
 
 代码运行效果：
+![image](https://github.com/user-attachments/assets/831cfa8e-1efe-4e96-8692-55da2487b832)
 
 
