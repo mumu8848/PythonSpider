@@ -1,7 +1,19 @@
-import json
+import pymysql
 from  lxml import etree
 import requests
 import chardet
+from bs4 import BeautifulSoup
+
+conn = pymysql.connect(host='127.0.0.1',port=3306,user='root',password='123456',database='test',charset='utf8',connect_timeout=1000)
+
+cursor = conn.cursor()
+
+sql = '''create table if not exists class (id int(10) primary key auto_increment, name varchar(20) not null,text varchar(20) not null);'''
+
+cursor.execute(sql)
+cursor.execute('show tables;')
+data = cursor.fetchall()
+print('查看当前数据库中已有表：',data)
 
 url = 'http://www.tipdm.com/'
 ua = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
@@ -10,11 +22,22 @@ ua = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
 rqg = requests.get(url,headers = ua)
 print('网站编码：',rqg.encoding)
 rqg.encoding = chardet.detect(rqg.content)['encoding']
+
 html = rqg.text
+soup = BeautifulSoup(html,'lxml')
+target = soup.title.string
+print('标题的内容：',target)
 
-t = etree.HTML(html)
-content = t.xpath('//ul[@id="menu"]/li/a/text()')
-print('标题菜单的文本：',content)
+#将数据插入到mysql的test表中
+title = 'tipdm'
+sql = "INSERT INTO class (name,text) VALUES(%s, %s)"
+cursor.execute(sql, (title, target))
+conn.commit()
 
-with open('./output.json','w',encoding='utf-8') as fp:
-    json.dump(content,fp,ensure_ascii=False)
+data = cursor.execute('select * from class')
+data = cursor.fetchmany()
+print('查询获取的结果：',data)
+
+conn.close()
+
+
