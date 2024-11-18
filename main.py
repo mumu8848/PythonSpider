@@ -14,12 +14,21 @@ engine = create_engine(
     echo=False  # 打印 SQL 语句，方便调试
 )
 
+data = []
+
+def add_data(text, href):
+    """将数据添加到 data 列表中"""
+    data.append({
+        "厂商": text,
+        "链接": href
+    })
+
 # 初始化元数据对象
 metadata = MetaData()
 
 # 定义新表
-src_list = Table(
-    'src_list',  # 表名
+src_list2 = Table(
+    'src_list2',  # 表名
     metadata,  # 元数据对象
     Column('id', Integer, primary_key=True, autoincrement=True),  # 主键，自增
     Column('厂商', String(64)),  # 标题，最大长度255
@@ -34,7 +43,7 @@ tables = metadata.tables.keys()
 print('查看当前数据库中已有表：', list(tables))
 
 
-url = 'https://blog.csdn.net/Aaron_Miller/article/details/107103519'
+url = 'https://blog.csdn.net/xiao8485/article/details/119237279'
 ua = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
                    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'}
 
@@ -58,31 +67,49 @@ else:
 # 确保 base_url 是一个绝对 URL
 base_url = urljoin(url, base_url)
 print('base_url:',base_url)
-data = []
 
-td_elements = soup.select('table td')
 
-# 提取每个 <td> 标签的内容和 href 属性
-for td in td_elements:
-    # 查找 <a> 标签
-    a_tag = td.find('a')
+# 选择表格中的所有 <tr> 标签
+tr_elements = soup.select('table tr')
 
-    # 如果 <a> 标签存在且有 href 属性
-    if a_tag and 'href' in a_tag.attrs:
-        # 提取文本内容
-        text_content = a_tag.get_text(strip=True)
+# 遍历每一行
+for tr in tr_elements:
+    # 获取该行的所有 <td> 标签
+    td_elements = tr.find_all('td')
 
-        # 提取 href 属性
-        href_content = a_tag['href']
+    # 初始化变量
+    current_text = None
+    last_href = None
 
-        print(f"Text: {text_content}, Href: {href_content}")
-        data.append({
-            "厂商":text_content,
-            "链接":href_content
-        })
+    # 遍历每个 <td> 标签
+    for td in td_elements:
+        # 查找 <a> 标签
+        a_tag = td.find('a')
+
+        if a_tag and 'href' in a_tag.attrs:
+            # 如果当前单元格有 <a> 标签，提取文本和 href 属性
+            text_content = a_tag.get_text(strip=True)
+            href_content = a_tag['href']
+
+            # 如果之前有未匹配的文本，将其与当前的 href 合并
+            if current_text:
+                add_data(current_text,href_content)
+                current_text = None
+            else:
+                add_data(current_text, href_content)
+
+            last_href = href_content
+        else:
+            # 如果当前单元格没有 <a> 标签，保存其文本内容
+            current_text = td.get_text(strip=True)
+
+    # 循环结束后检查 current_text
+    if current_text and last_href:
+        add_data(current_text, href_content)
+
 
 # 使用 insert() 构造插入语句
-stmt = insert(src_list).values(data)
+stmt = insert(src_list2).values(data)
 
 # 执行插入语句
 with engine.connect() as connection:
