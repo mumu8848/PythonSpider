@@ -2,7 +2,7 @@ import requests
 import chardet
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from sqlalchemy import create_engine,insert,MetaData,Table
+from sqlalchemy import create_engine,insert,MetaData,Table,Column,Integer,String
 
 # 连接到 MySQL 数据库
 engine = create_engine(
@@ -16,15 +16,25 @@ engine = create_engine(
 
 # 初始化元数据对象
 metadata = MetaData()
-# 反射现有的表
-html_text = Table('html_text', metadata, autoload_with=engine)
+
+# 定义新表
+src_list = Table(
+    'src_list',  # 表名
+    metadata,  # 元数据对象
+    Column('id', Integer, primary_key=True, autoincrement=True),  # 主键，自增
+    Column('厂商', String(64)),  # 标题，最大长度255
+    Column('链接', String(64))  # 链接，最大长度255
+)
+
+# 创建表
+metadata.create_all(engine)
 # 获取表名列表
 tables = metadata.tables.keys()
 # 打印表名列表
 print('查看当前数据库中已有表：', list(tables))
 
 
-url = 'https://bbs.hupu.com/history/'
+url = 'https://blog.csdn.net/Aaron_Miller/article/details/107103519'
 ua = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
                    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'}
 
@@ -50,19 +60,29 @@ base_url = urljoin(url, base_url)
 print('base_url:',base_url)
 data = []
 
-post_titles = soup.select('div.post-title')
-post_links = soup.select('div.post-title a')
-for i, (title, link) in enumerate(zip(post_titles, post_links)):
-    absolute_link = urljoin(base_url, link['href'])
-    print(i, '文章标题:', title.text)
-    print(i, '文章链接:', absolute_link)
-    data.append({
-        '标题': title.text.strip(),
-        '链接': absolute_link
-    })
+td_elements = soup.select('table td')
+
+# 提取每个 <td> 标签的内容和 href 属性
+for td in td_elements:
+    # 查找 <a> 标签
+    a_tag = td.find('a')
+
+    # 如果 <a> 标签存在且有 href 属性
+    if a_tag and 'href' in a_tag.attrs:
+        # 提取文本内容
+        text_content = a_tag.get_text(strip=True)
+
+        # 提取 href 属性
+        href_content = a_tag['href']
+
+        print(f"Text: {text_content}, Href: {href_content}")
+        data.append({
+            "厂商":text_content,
+            "链接":href_content
+        })
 
 # 使用 insert() 构造插入语句
-stmt = insert(html_text).values(data)
+stmt = insert(src_list).values(data)
 
 # 执行插入语句
 with engine.connect() as connection:
