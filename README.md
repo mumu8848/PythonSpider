@@ -107,3 +107,11 @@ charset="", connect_timeout=10,…)
 ![image](https://github.com/user-attachments/assets/831cfa8e-1efe-4e96-8692-55da2487b832)
 
 
+
+# 虎扑历史板块测试案例
+题目：
+通过使用Xpath或BeautifulSoup库，获取虎扑—历史栏目中各帖子的标题、标题的超链接地址。同时，在本地数据库中新建一个html_text表，要求该表有两列，列名为“标题”​“链接”​，分别用于存储标题和标题相对应的链接。将爬取下来的多个帖子的数据按行插入html_text表中，并查看数据是否存储成功。
+
+代码运行效果
+![1731909341073](https://github.com/user-attachments/assets/9b61f0e7-dc48-45ec-9cbd-f6155f4b9bea)
+
