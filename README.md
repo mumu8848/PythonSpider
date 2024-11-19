@@ -120,4 +120,6 @@ charset="", connect_timeout=10,…)
 代码运行效果
 ![image](https://github.com/user-attachments/assets/7b95e8d4-9c9e-4765-b381-6f96bcae1af2)
 
+# 动态网页的爬取 selenium 框架的使用
+![image](https://github.com/user-attachments/assets/1688c602-f103-4701-9a08-9cb75276dbfe)
 
