@@ -123,3 +123,7 @@ charset="", connect_timeout=10,…)
 # 动态网页的爬取 selenium 框架的使用
 ![image](https://github.com/user-attachments/assets/1688c602-f103-4701-9a08-9cb75276dbfe)
 
+小demo
+![image](https://github.com/user-attachments/assets/87a203e2-0d23-4ce7-977c-f68a7373d21c)
+
+
