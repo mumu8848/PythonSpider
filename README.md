@@ -1,4 +1,4 @@
-# PythonSpider
+![image](https://github.com/user-attachments/assets/e860da4c-1fe4-40fa-aa9d-795553d2703a)# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -125,5 +125,14 @@ charset="", connect_timeout=10,…)
 
 小demo
 ![image](https://github.com/user-attachments/assets/87a203e2-0d23-4ce7-977c-f68a7373d21c)
+
+## 使用 find_element 方法的案例
+![image](https://github.com/user-attachments/assets/6b9d219c-819c-47bf-a459-79699addb1fa)
+
+- 小tips
+  在目标网页上要使用好xpath语句来获取到我们想要爬取内容的具体元素（说起来比较绕，但确实是这么个理）
+![image](https://github.com/user-attachments/assets/7c95f054-6459-485f-b4e6-2e4baacdac17)
+
+
 
 
