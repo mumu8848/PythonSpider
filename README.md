@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e860da4c-1fe4-40fa-aa9d-795553d2703a)# PythonSpider
+# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -134,7 +134,11 @@ charset="", connect_timeout=10,…)
 ![image](https://github.com/user-attachments/assets/7c95f054-6459-485f-b4e6-2e4baacdac17)
 
 ## 使用 find_elements 方法的案例
+- 中国出版集团
 ![image](https://github.com/user-attachments/assets/bb1f0ac5-7ae7-4326-aab3-d38d6c362b52)
+- 豆瓣新书
+![image](https://github.com/user-attachments/assets/7bbc91e1-f670-47a2-9a70-5d998856cf3d)
+
 
 
 
