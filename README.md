@@ -133,6 +133,9 @@ charset="", connect_timeout=10,…)
   在目标网页上要使用好xpath语句来获取到我们想要爬取内容的具体元素（说起来比较绕，但确实是这么个理）
 ![image](https://github.com/user-attachments/assets/7c95f054-6459-485f-b4e6-2e4baacdac17)
 
+## 使用 find_elements 方法的案例
+![image](https://github.com/user-attachments/assets/bb1f0ac5-7ae7-4326-aab3-d38d6c362b52)
+
 
 
 
