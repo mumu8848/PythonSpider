@@ -6,7 +6,12 @@ option.add_experimental_option('detach',True)
 browser = webdriver.Chrome(options=option)
 
 browser.get('https://book.douban.com/latest') # 中国出版集团
-elems = browser.find_elements(By.XPATH,'//div[@id="content"]//li//a[@class="fleft"]')
+pics = browser.find_elements(By.XPATH,'//div[@class="media__img"]//img')
 
-for elem in elems:
-    print(elem.text)
+for index,pic in enumerate(pics):
+    pic_name = './tmp/'+str(index)+'.png'
+    print('正在存储图片：',pic_name)
+    with open(pic_name,'wb') as f:
+        f.write(pic.screenshot_as_png)
+
+browser.quit()
