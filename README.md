@@ -142,6 +142,9 @@ charset="", connect_timeout=10,…)
 ## 元素交互 单击和输入
 ![image](https://github.com/user-attachments/assets/909ff7b6-892a-4a3a-a9cb-5e5306f6c856)
 
+## 豆瓣读书，提取多本与爬虫相关图书名称
+
+![image](https://github.com/user-attachments/assets/8f463b44-0edd-488f-99c2-e509398c11b7)
 
 
 
