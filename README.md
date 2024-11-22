@@ -139,6 +139,8 @@ charset="", connect_timeout=10,…)
 - 豆瓣新书
 ![image](https://github.com/user-attachments/assets/7bbc91e1-f670-47a2-9a70-5d998856cf3d)
 
+## 元素交互 单击和输入
+![image](https://github.com/user-attachments/assets/909ff7b6-892a-4a3a-a9cb-5e5306f6c856)
 
 
 
