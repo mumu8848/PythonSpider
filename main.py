@@ -1,27 +1,19 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
+import time
 
 option = webdriver.ChromeOptions()
 option.add_experimental_option('detach',True)
 browser = webdriver.Chrome(options=option)
 
-browser.get('https://book.douban.com/latest') # 中国出版集团
+browser.implicitly_wait(10) # 隐式等待10s
 
-browser.maximize_window()
+browser.get('https://weread.qq.com/web/category/newbook') # 中国出版集团
 
-search_input = browser.find_element(By.XPATH,'//div[@class="nav-search"]//input')
-search_input.send_keys('爬虫')
-search_input.send_keys(Keys.ENTER)
+# browser.maximize_window()
 
-# 切换到最新的窗口
-handles = browser.window_handles
-browser.switch_to.window(handles[-1])
+elem = browser.find_element(By.XPATH,'//div[@class="ranking_page_content_list_container"]//a[1]')
+elem.click()
 
-# 定位最新窗口中的所有图书名所在的标签
-books = browser.find_elements(By.XPATH,'//div[@id="wrapper"]//div[@class="title"]//a')
 
-for book in books:
-    print(book.text)
-
-browser.quit()
+# browser.quit()
