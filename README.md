@@ -154,4 +154,5 @@ charset="", connect_timeout=10,…)
 - 操作命令层面的区别
 ![image](https://github.com/user-attachments/assets/8eb764fc-c74d-49ce-a840-335405ad1fc3)
   
-
+- 一个插入集合的实际示例
+![image](https://github.com/user-attachments/assets/905094f5-fcee-43f6-bb3d-378264e36cc2)
