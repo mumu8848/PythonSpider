@@ -147,4 +147,7 @@ charset="", connect_timeout=10,…)
 ![image](https://github.com/user-attachments/assets/8f463b44-0edd-488f-99c2-e509398c11b7)
 
 
+# 数据库存储之MongoDB和MySQL的区别
+
+![image](https://github.com/user-attachments/assets/dd926556-167f-4ffd-987c-a752d1176da1)
 
