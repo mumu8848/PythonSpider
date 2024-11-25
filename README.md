@@ -1,4 +1,4 @@
-# PythonSpider
+![image](https://github.com/user-attachments/assets/f8ce73eb-c2b1-4656-84c5-7632e6dc6d7f)# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -148,6 +148,10 @@ charset="", connect_timeout=10,…)
 
 
 # 数据库存储之MongoDB和MySQL的区别
-
+- 概念层面的区别
 ![image](https://github.com/user-attachments/assets/dd926556-167f-4ffd-987c-a752d1176da1)
+
+- 操作命令层面的区别
+![image](https://github.com/user-attachments/assets/8eb764fc-c74d-49ce-a840-335405ad1fc3)
+  
 
