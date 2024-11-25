@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import pymongo
+
 
 import time
 
@@ -15,14 +17,16 @@ browser.get('https://weread.qq.com/web/category/newbook') # 中国出版集团
 
 # browser.maximize_window()
 
-elem = browser.find_element(By.XPATH,'//div[@class="ranking_page_content_list_container"]//a[@class="wr_bookList_item_link"][2]')
+elems = browser.find_elements(By.XPATH,'//div[@class="ranking_page_content_list_container"]//p[@class="wr_bookList_item_title"]')
 
-try:
-    wait = WebDriverWait(browser,20,0.5)
-    wait.until(EC.element_to_be_clickable(elem))
-    elem.click()
-    time.sleep(5)
-finally:
-    browser.quit()
+# 建立本地链接，使用默认端口和用户名密码
+conn = pymongo.MongoClient('mongodb://127.0.0.1:27017')
+mydb = conn['mydb'] # 创建数据库‘mydb’
+test = mydb['Nav'] # 通过属性的方式创建集合
 
+for elem in elems:
+    test.insert_one({'name':elem.text})
+
+for x in test.find():
+    print(x)
 
