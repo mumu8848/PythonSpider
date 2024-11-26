@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f8ce73eb-c2b1-4656-84c5-7632e6dc6d7f)# PythonSpider
+# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -153,6 +153,10 @@ charset="", connect_timeout=10,…)
 
 - 操作命令层面的区别
 ![image](https://github.com/user-attachments/assets/8eb764fc-c74d-49ce-a840-335405ad1fc3)
+
+- 获取百度标题栏文字和链接，并存入mongodb中
+![image](https://github.com/user-attachments/assets/cb4f8b9f-e103-4ab9-a019-83f1de07948a)
+
   
 - 一个插入集合的实际示例
 ![image](https://github.com/user-attachments/assets/905094f5-fcee-43f6-bb3d-378264e36cc2)
