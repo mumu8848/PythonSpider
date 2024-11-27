@@ -160,3 +160,9 @@ charset="", connect_timeout=10,…)
   
 - 一个插入集合的实际示例
 ![image](https://github.com/user-attachments/assets/905094f5-fcee-43f6-bb3d-378264e36cc2)
+
+# 登录示例
+
+## 获取验证码
+![image](https://github.com/user-attachments/assets/1c289072-75e4-42ff-97e9-cb3b3ad22a49)
+
