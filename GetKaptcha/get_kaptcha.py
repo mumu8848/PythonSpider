@@ -13,3 +13,7 @@ with open('./tmp/kaptcha.jpg','wb') as f:
 im = Image.open('./tmp/kaptcha.jpg')
 
 im.show()
+
+kaptcha = input('请输入验证码：')
+
+print('获取的验证码为：',kaptcha)
