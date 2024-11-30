@@ -25,5 +25,7 @@ login_url = 'https://www.ptpress.com.cn/login'
 
 
 r = session.post(login_url,data=login_data)
+
+r = session.get(login_url)
 print('发送请求后返回的状态码为：',r.status_code)
 print('响应内容：',r.text)
