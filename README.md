@@ -169,4 +169,6 @@ charset="", connect_timeout=10,…)
 ## 登录测试
 ![image](https://github.com/user-attachments/assets/f279edc4-59d8-474e-9ec3-c23139f99f67)
 
+## 存储cookie
+![image](https://github.com/user-attachments/assets/b33e5c2a-26fb-43a9-8a1b-d59675ecf9af)
 
