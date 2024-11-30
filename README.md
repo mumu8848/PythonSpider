@@ -179,5 +179,22 @@ charset="", connect_timeout=10,…)
 ### 实训2 使用浏览器Cookie模拟登录古诗文网
 ![image](https://github.com/user-attachments/assets/01f5f3ca-77e6-46ac-a8e5-3c0bb8d52128)
 
+### 实训3 基于表单登录后的Cookie模拟登录古诗文网
+
+- 需要注意的点是：
+原文：**注：若在调用save()方法时报错，可以考虑把cookiejar.py中的1842和1843行代码注释后保存，重新运行。**
+
+cookiejar.py中两行代码
+```python
+if cookie.expires: h.append(("expires",
+        time2isoz(float(cookie.expires))))
+```
+这两行代码的作用是将 Cookie 的过期时间格式化为 ISO 格式，并将其添加到 HTTP 头部。
+通过浏览器开发工具分析可以看到请求头部的字段细节：
+![image](https://github.com/user-attachments/assets/44211822-5e5d-40fd-988f-ebe8909ab2bc)
+
+注释掉库文件的这两行代码可以理解为不处理过期时间
+
+
 
 
