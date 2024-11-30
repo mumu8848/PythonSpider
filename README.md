@@ -172,7 +172,12 @@ charset="", connect_timeout=10,…)
 ## 存储cookie
 ![image](https://github.com/user-attachments/assets/b33e5c2a-26fb-43a9-8a1b-d59675ecf9af)
 
-### 第五章，实训1 使用表单登录方法模拟登录古诗文网
+### 第五章
+### 实训1 使用表单登录方法模拟登录古诗文网
 ![image](https://github.com/user-attachments/assets/c467874d-89ea-4600-9ff2-43ff890bd374)
+
+### 实训2 使用浏览器Cookie模拟登录古诗文网
+![image](https://github.com/user-attachments/assets/01f5f3ca-77e6-46ac-a8e5-3c0bb8d52128)
+
 
 
