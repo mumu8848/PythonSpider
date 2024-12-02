@@ -207,5 +207,8 @@ if cookie.expires: h.append(("expires",
 ![image](https://github.com/user-attachments/assets/be5ed5a5-0f45-4e05-a280-7b3513588584)
 
 
+## Scrapy爬虫框架
+- 7个组件
+![image](https://github.com/user-attachments/assets/a3731a7b-0e18-4d5a-83f8-58bfae520e64)
 
 
