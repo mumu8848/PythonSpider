@@ -1,4 +1,4 @@
-# PythonSpider
+![image](https://github.com/user-attachments/assets/a7f740a3-c1b8-430a-98dc-b3bac6776a36)# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -173,13 +173,13 @@ charset="", connect_timeout=10,…)
 ![image](https://github.com/user-attachments/assets/b33e5c2a-26fb-43a9-8a1b-d59675ecf9af)
 
 ### 第五章
-### 实训1 使用表单登录方法模拟登录古诗文网
+#### 实训1 使用表单登录方法模拟登录古诗文网
 ![image](https://github.com/user-attachments/assets/c467874d-89ea-4600-9ff2-43ff890bd374)
 
-### 实训2 使用浏览器Cookie模拟登录古诗文网
+#### 实训2 使用浏览器Cookie模拟登录古诗文网
 ![image](https://github.com/user-attachments/assets/01f5f3ca-77e6-46ac-a8e5-3c0bb8d52128)
 
-### 实训3 基于表单登录后的Cookie模拟登录古诗文网
+#### 实训3 基于表单登录后的Cookie模拟登录古诗文网
 
 - 需要注意的点是：
 原文：**注：若在调用save()方法时报错，可以考虑把cookiejar.py中的1842和1843行代码注释后保存，重新运行。**
@@ -194,6 +194,16 @@ if cookie.expires: h.append(("expires",
 ![image](https://github.com/user-attachments/assets/44211822-5e5d-40fd-988f-ebe8909ab2bc)
 
 注释掉库文件的这两行代码可以理解为不处理过期时间
+
+### 第六章
+#### 实训1 获取酷我音乐PC客户端的推荐歌曲信息
+通过http analyzer分析到排行榜的请求数据包
+![image](https://github.com/user-attachments/assets/8a638c3e-0623-4275-a925-01b9dd7bb75a)
+构造对应的请求
+![image](https://github.com/user-attachments/assets/816311b7-5674-4d6b-9e49-b82c7fb68f9e)
+
+#### 实训2 分析学习通App客户端
+
 
 
 
