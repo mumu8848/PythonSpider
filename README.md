@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a7f740a3-c1b8-430a-98dc-b3bac6776a36)# PythonSpider
+# PythonSpider
 
 ## urllib3库 使用效果截图
 
