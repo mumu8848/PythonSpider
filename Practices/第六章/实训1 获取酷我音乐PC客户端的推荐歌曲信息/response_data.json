@@ -1,0 +1,1539 @@
+{
+    "name": "酷我飙升榜",
+    "leader": "酷我飙升榜",
+    "term": "",
+    "info": "榜单收录一周内播放次数涨幅最高的TOP200歌曲，权威反应时下最流行音乐动态，精彩一榜打尽。",
+    "pic": "http://img1.kuwo.cn/star/mboxAlbum/BangPic/",
+    "pub": "2024-12-02",
+    "timestamp": "1733094006",
+    "num": "360",
+    "v9_pic2": "http://img4.kuwo.cn/star/albumcover/120/s4s52/55/369264137.jpg",
+    "type": "music",
+    "musiclist": [
+        {
+            "id": "424311901",
+            "name": "APT.",
+            "artist": "ROSÉ (로제)&Bruno Mars",
+            "artistid": "2718319",
+            "album": "APT.",
+            "albumid": "60010439",
+            "score100": "79",
+            "formats": "ZPGA714|ZPLY|ZPGA501|ZPGA201|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP|MV700|MV500|MP4UL|MP4HV|MP4BD|MP4|EXMV700|EXMV500|EXMP4UL|EXMP4HV|EXMP4BD|EXMP4",
+            "mp4sig1": 2434115419,
+            "mp4sig2": 3365736649,
+            "param": "APT.;ROSÉ (로제)&Bruno Mars;APT.;923140027;3117988181;MUSIC_424311901;1614182341;3409171375;MP3_424311901;3427475637;3247154515;MV_5481269;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "0",
+            "isnew": "0",
+            "duration": "3",
+            "highest_rank": "1",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "布鲁诺·马尔斯",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "169",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "17754317"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "e0"
+        },
+        {
+            "id": "434977988",
+            "name": "陪我过个冬 (相思八千里)",
+            "artist": "李嘉嘉",
+            "artistid": "15083819",
+            "album": "陪我过个冬 (相思八千里)",
+            "albumid": "60833115",
+            "score100": "84",
+            "formats": "ZPGA501|ZPGA201|ZPLY|ZPGA714|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "陪我过个冬 (相思八千里);李嘉嘉;陪我过个冬 (相思八千里);1906449241;1589434058;MUSIC_434977988;2528362704;1433383958;MP3_434977988;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "0",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "2",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "147",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "e0"
+        },
+        {
+            "id": "396482335",
+            "name": "Cry For Me (feat. Ami)",
+            "artist": "Michita&Ami",
+            "artistid": "20508",
+            "album": "Pureness",
+            "albumid": "56182536",
+            "score100": "74",
+            "formats": "ZPLY|ZPGA714|ZPGA501|ZPGA201|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "Cry For Me (feat. Ami);Michita&Ami;Pureness;3958457002;2556616354;MUSIC_396482335;1136529357;831231848;MP3_396482335;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "3",
+            "isnew": "0",
+            "duration": "8",
+            "highest_rank": "3",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "302",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "0",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1100",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "412213518",
+            "name": "有爱就不怕 (1.2x宿命混响)",
+            "artist": "庄心妍",
+            "artistid": "116570",
+            "album": "有爱就不怕(氛围版)",
+            "albumid": "58518732",
+            "score100": "71",
+            "formats": "WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "有爱就不怕 (1.2x宿命混响);庄心妍;有爱就不怕(氛围版);1925859664;3129676823;MUSIC_412213518;1915070774;907087314;MP3_412213518;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "171",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "4",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Ada",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "138",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "1104619",
+            "name": "孤独患者",
+            "artist": "陈奕迅",
+            "artistid": "47",
+            "album": "?",
+            "albumid": "523722",
+            "score100": "84",
+            "formats": "AAC96|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP|MV500|MP4L|MP4H|MP4|EXMV500|EXMP4L|EXMP4H|EXMP4",
+            "mp4sig1": 1709448394,
+            "mp4sig2": 3360209338,
+            "param": "孤独患者;陈奕迅;?;1406340591;112690532;MUSIC_1104619;3177388972;2028659046;MP3_1104619;3842880276;1150971642;MV_207942;1",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "16",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "5",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Eason Chan",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "273",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1100",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "254485"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "158956406",
+            "name": "失控（DJ版）",
+            "artist": "井迪儿",
+            "artistid": "4878869",
+            "album": "失控（DJ版）",
+            "albumid": "17025062",
+            "score100": "79",
+            "formats": "AAC96|OGG96|OGG192|HIRFLAC|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "失控（DJ版）;井迪儿;失控（DJ版）;2027454748;753656755;MUSIC_158956406;2814736644;3014708887;MP3_158956406;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "84",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "6",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "song_duration": "183",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "145913448",
+            "name": "天下",
+            "artist": "张杰",
+            "artistid": "680",
+            "album": "听！我们的歌",
+            "albumid": "14982533",
+            "score100": "79",
+            "formats": "ZPGA714|OGG192|OGG96|AAC96|ZPLY|ZPGA501|ZPGA201|HIRFLAC|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "天下;张杰;听！我们的歌;3895826495;56191706;MUSIC_145913448;1285019596;3923582438;MP3_145913448;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "9",
+            "isnew": "0",
+            "duration": "3",
+            "highest_rank": "7",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Jason",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "song_duration": "221",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "436464481",
+            "name": "伤心剖半",
+            "artist": "邓典",
+            "artistid": "2723440",
+            "album": "伤心剖半",
+            "albumid": "61044482",
+            "score100": "0",
+            "formats": "WMA96|WMA128|OGG96|MP3128|AAC48",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "伤心剖半;邓典;伤心剖半;816851415;1843919699;MUSIC_436464481;2777348959;3859255159;MP3_436464481;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "4",
+            "isnew": "0",
+            "duration": "4",
+            "highest_rank": "4",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "171",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1100",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "d0"
+        },
+        {
+            "id": "417670843",
+            "name": "土坡上的狗尾草",
+            "artist": "卢润泽",
+            "artistid": "1048530",
+            "album": "土坡上的狗尾巴草",
+            "albumid": "59174915",
+            "score100": "87",
+            "formats": "WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "土坡上的狗尾草;卢润泽;土坡上的狗尾巴草;200969769;1313557348;MUSIC_417670843;3905799622;1694806264;MP3_417670843;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "0",
+            "isnew": "1",
+            "duration": "1",
+            "highest_rank": "9",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "195",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "e0"
+        },
+        {
+            "id": "327909473",
+            "name": "冬眠·2023",
+            "artist": "阿YueYue&刘兆宇",
+            "artistid": "1036836",
+            "album": "冬眠·2023",
+            "albumid": "45529740",
+            "score100": "75",
+            "formats": "ZPLY|ZPGA714|ZPGA501|ZPGA201|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "冬眠·2023;阿YueYue&刘兆宇;冬眠·2023;2024959333;2190512226;MUSIC_327909473;2579239168;2456936453;MP3_327909473;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "326",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "10",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "191",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "433679407",
+            "name": "先说爱的人为什么先离开",
+            "artist": "田园",
+            "artistid": "15403237",
+            "album": "先说爱的人（我们之间只差一个结果）",
+            "albumid": "60652180",
+            "score100": "89",
+            "formats": "WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "先说爱的人为什么先离开;田园;先说爱的人（我们之间只差一个结果）;2654385367;3848647793;MUSIC_433679407;582498911;1466014038;MP3_433679407;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "8",
+            "isnew": "0",
+            "duration": "10",
+            "highest_rank": "1",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "220",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "d0"
+        },
+        {
+            "id": "324244",
+            "name": "青花瓷",
+            "artist": "周杰伦",
+            "artistid": "336",
+            "album": "我很忙",
+            "albumid": "12449",
+            "score100": "92",
+            "formats": "OGG192|OGG96|AAC96|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP|SMP4HV|SMP4L|MV700|MV500|MP4UL|MP4L|MP4HV|MP4|EXSMP4HV|EXSMP4L|EXMV700|EXMV500|EXMP4UL|EXMP4L|EXMP4HV|EXMP4",
+            "mp4sig1": 246873085,
+            "mp4sig2": 3532863741,
+            "param": "青花瓷;周杰伦;我很忙;1189429280;2142546010;MUSIC_324244;3872980586;668114890;MP3_324244;399030351;3263772493;MV_3457622;1",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "16",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "12",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Jay Chou",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "song_duration": "237",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "10307364"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "6698742",
+            "name": "凑热闹",
+            "artist": "BY2",
+            "artistid": "1715",
+            "album": "超人气女组合",
+            "albumid": "520986",
+            "score100": "80",
+            "formats": "ZPGA714|ZPGA501|AAC96|ZPLY|ZPGA201|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP|MV700|MV500|MP4L|MP4|EXMV700|EXMV500|EXMP4L|EXMP4",
+            "mp4sig1": 2204639396,
+            "mp4sig2": 3533568479,
+            "param": "凑热闹;BY2;超人气女组合;3567031243;3593445419;MUSIC_6698742;1318415408;3862006320;MP3_6698742;252608430;2146894955;MV_2545929;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "13",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "13",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "By2",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "241",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "8496060"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "228908",
+            "name": "晴天",
+            "artist": "周杰伦",
+            "artistid": "336",
+            "album": "叶惠美",
+            "albumid": "1293",
+            "score100": "90",
+            "formats": "OGG192|OGG96|AAC96|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP|SMP4BD|SMP4UL|SMP4HV|SMP4|SMP4L|MV500|MP4UL|MP4L|MP4HV|MP4BD|MP4|EXSMP4BD|EXSMP4UL|EXSMP4HV|EXSMP4|EXSMP4L|EXMV500|EXMP4UL|EXMP4L|EXMP4HV|EXMP4BD|EXMP4",
+            "mp4sig1": 1362955573,
+            "mp4sig2": 37166107,
+            "param": "晴天;周杰伦;叶惠美;3320804143;3732048786;MUSIC_228908;814703912;2461933099;MP3_228908;19150752;3079909396;MV_4013193;1",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "32",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "14",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Jay Chou",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "song_duration": "269",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "8132306"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "434061031",
+            "name": "归途的光",
+            "artist": "诺爷Plus",
+            "artistid": "6572293",
+            "album": "归途的光",
+            "albumid": "60709922",
+            "score100": "77",
+            "formats": "ZPGA501|ZPGA201|ZPLY|ZPGA714|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "归途的光;诺爷Plus;归途的光;2001655783;1944374085;MUSIC_434061031;2787568950;795701966;MP3_434061031;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "8",
+            "isnew": "0",
+            "duration": "12",
+            "highest_rank": "3",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "225",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1100",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "d0"
+        },
+        {
+            "id": "389528329",
+            "name": "暮色回响",
+            "artist": "张韶涵",
+            "artistid": "492",
+            "album": "暮色回响",
+            "albumid": "54984585",
+            "score100": "92",
+            "formats": "WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP|MV700|MV500|MP4UL|MP4L|MP4HV|MP4BD|MP4|EXMV700|EXMV500|EXMP4UL|EXMP4L|EXMP4HV|EXMP4BD|EXMP4",
+            "mp4sig1": 3429514078,
+            "mp4sig2": 2612725455,
+            "param": "暮色回响;张韶涵;暮色回响;569223123;3403377246;MUSIC_389528329;2752563060;2061462483;MP3_389528329;182820435;2876666634;MV_5326786;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "0",
+            "isnew": "1",
+            "duration": "1",
+            "highest_rank": "16",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Angela Chang",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "181",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "17653227"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "e0"
+        },
+        {
+            "id": "493258",
+            "name": "我知道",
+            "artist": "BY2",
+            "artistid": "1715",
+            "album": "Twins",
+            "albumid": "35477",
+            "score100": "84",
+            "formats": "ZPGA714|AAC96|OGG96|ZPLY|ZPGA201|WMA96|WMA128|MP3H|MP3128|ALFLAC|AAC48|ZP|SMP4BD|SMP4UL|SMP4HV|SMP4|SMP4L|MV700|MV500|MP4L|MP4|EXSMP4BD|EXSMP4UL|EXSMP4HV|EXSMP4|EXSMP4L|EXMV700|EXMV500|EXMP4L|EXMP4",
+            "mp4sig1": 19603467,
+            "mp4sig2": 3813265683,
+            "param": "我知道;BY2;Twins;380654480;1102296402;MUSIC_493258;3408042285;3363222848;MP3_493258;1926631423;1597384909;MV_1233823;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "18",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "17",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "By2",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "250",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "5781414"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "u0"
+        },
+        {
+            "id": "55492522",
+            "name": "唱月",
+            "artist": "李耀阳",
+            "artistid": "490799",
+            "album": "唱月",
+            "albumid": "7298175",
+            "score100": "81",
+            "formats": "ZPGA501|ZPLY|ZPGA714|ZPGA201|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP|MV700|MV500|MP4UL|MP4L|MP4HV|MP4BD|MP4|EXMV700|EXMV500|EXMP4UL|EXMP4L|EXMP4HV|EXMP4BD|EXMP4",
+            "mp4sig1": 1206385632,
+            "mp4sig2": 714408643,
+            "param": "唱月;李耀阳;唱月;1819866209;441641464;MUSIC_55492522;3524499341;1545206692;MP3_55492522;1025650198;2936270295;MV_1250309;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16515324",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "10",
+            "isnew": "0",
+            "duration": "6",
+            "highest_rank": "4",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "0",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffff17ffffffffffffffbfffff7fffffffffffffdfffffffbfffff",
+            "song_duration": "270",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "0",
+                "local_encrypt": "1",
+                "play": "1100",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "7868439"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "d0"
+        },
+        {
+            "id": "395500809",
+            "name": "童话镇 (新版)",
+            "artist": "陈雪凝",
+            "artistid": "1486611",
+            "album": "童话镇 (新版)",
+            "albumid": "56087579",
+            "score100": "79",
+            "formats": "ZPLY|ZPGA714|ZPGA501|ZPGA201|WMA96|WMA128|OGG96|OGG192|MP3H|MP3128|ALFLAC|AAC48|ZP",
+            "mp4sig1": 0,
+            "mp4sig2": 0,
+            "param": "童话镇 (新版);陈雪凝;童话镇 (新版);2458786114;264599732;MUSIC_395500809;910848369;3051471572;MP3_395500809;0;0;MV_0;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "0",
+            "isnew": "1",
+            "duration": "1",
+            "highest_rank": "19",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "0",
+            "overseas_copyright": "1",
+            "song_duration": "240",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "0"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "e0"
+        },
+        {
+            "id": "3200042",
+            "name": "夕阳之歌",
+            "artist": "梅艳芳",
+            "artistid": "1127",
+            "album": "In Brasil",
+            "albumid": "7776",
+            "score100": "65",
+            "formats": "AAC96|WMA128|WMA96|ZPLY|MP3128|ALFLAC|AAC48|MP3H|ZP|SMP4L|MV700|MV500|MP4L|MP4|EXSMP4L|EXMV700|EXMV500|EXMP4L|EXMP4",
+            "mp4sig1": 704441377,
+            "mp4sig2": 3690776978,
+            "param": "夕阳之歌;梅艳芳;In Brasil;782287275;1162744742;MUSIC_3200042;2943625036;808031379;MP3_3200042;1964758455;547290674;MV_2402410;0",
+            "ispoint": "0",
+            "mutiver": "0",
+            "pay": "16711935",
+            "online": "1",
+            "copyright": "0",
+            "rank_change": "9",
+            "isnew": "0",
+            "duration": "2",
+            "highest_rank": "11",
+            "score": "0",
+            "transsongname": "",
+            "aartist": "Anita Mui",
+            "opay": "0",
+            "tpay": "1",
+            "overseas_pay": "16711935",
+            "overseas_copyright": "7ffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "song_duration": "308",
+            "payInfo": {
+                "cannotOnlinePlay": "0",
+                "cannotDownload": "0",
+                "download": "1111",
+                "feeType": {
+                    "album": "0",
+                    "bookvip": "0",
+                    "song": "1",
+                    "vip": "1"
+                },
+                "listen_fragment": "1",
+                "local_encrypt": "1",
+                "play": "1111",
+                "tips_intercept": "0"
+            },
+            "mvpayinfo": {
+                "download": "0",
+                "play": "0",
+                "vid": "8249477"
+            },
+            "audiobookpayinfo": {
+                "download": "0",
+                "play": "0"
+            },
+            "nationid": "",
+            "fpay": "1",
+            "isdownload": "0",
+            "trend": "d0"
+        }
+    ],
+    "volume": {
+        "2024": [
+            {
+                "id": "1",
+                "second_id": "93",
+                "third_id": "224814",
+                "name": "337"
+            },
+            {
+                "id": "2",
+                "second_id": "93",
+                "third_id": "224744",
+                "name": "336"
+            },
+            {
+                "id": "3",
+                "second_id": "93",
+                "third_id": "224673",
+                "name": "335"
+            },
+            {
+                "id": "4",
+                "second_id": "93",
+                "third_id": "224602",
+                "name": "334"
+            },
+            {
+                "id": "5",
+                "second_id": "93",
+                "third_id": "224533",
+                "name": "333"
+            },
+            {
+                "id": "6",
+                "second_id": "93",
+                "third_id": "224460",
+                "name": "332"
+            },
+            {
+                "id": "7",
+                "second_id": "93",
+                "third_id": "224390",
+                "name": "331"
+            },
+            {
+                "id": "8",
+                "second_id": "93",
+                "third_id": "224313",
+                "name": "330"
+            },
+            {
+                "id": "9",
+                "second_id": "93",
+                "third_id": "224243",
+                "name": "329"
+            },
+            {
+                "id": "10",
+                "second_id": "93",
+                "third_id": "224170",
+                "name": "328"
+            },
+            {
+                "id": "11",
+                "second_id": "93",
+                "third_id": "224101",
+                "name": "327"
+            },
+            {
+                "id": "12",
+                "second_id": "93",
+                "third_id": "224031",
+                "name": "326"
+            },
+            {
+                "id": "13",
+                "second_id": "93",
+                "third_id": "223960",
+                "name": "325"
+            },
+            {
+                "id": "14",
+                "second_id": "93",
+                "third_id": "223887",
+                "name": "324"
+            },
+            {
+                "id": "15",
+                "second_id": "93",
+                "third_id": "223811",
+                "name": "323"
+            },
+            {
+                "id": "16",
+                "second_id": "93",
+                "third_id": "223741",
+                "name": "322"
+            },
+            {
+                "id": "17",
+                "second_id": "93",
+                "third_id": "223669",
+                "name": "321"
+            },
+            {
+                "id": "18",
+                "second_id": "93",
+                "third_id": "223599",
+                "name": "320"
+            },
+            {
+                "id": "19",
+                "second_id": "93",
+                "third_id": "223530",
+                "name": "319"
+            },
+            {
+                "id": "20",
+                "second_id": "93",
+                "third_id": "223458",
+                "name": "318"
+            },
+            {
+                "id": "21",
+                "second_id": "93",
+                "third_id": "223386",
+                "name": "317"
+            },
+            {
+                "id": "22",
+                "second_id": "93",
+                "third_id": "223309",
+                "name": "316"
+            },
+            {
+                "id": "23",
+                "second_id": "93",
+                "third_id": "223239",
+                "name": "315"
+            },
+            {
+                "id": "24",
+                "second_id": "93",
+                "third_id": "223168",
+                "name": "314"
+            },
+            {
+                "id": "25",
+                "second_id": "93",
+                "third_id": "223098",
+                "name": "313"
+            },
+            {
+                "id": "26",
+                "second_id": "93",
+                "third_id": "223028",
+                "name": "312"
+            },
+            {
+                "id": "27",
+                "second_id": "93",
+                "third_id": "222956",
+                "name": "311"
+            },
+            {
+                "id": "28",
+                "second_id": "93",
+                "third_id": "222884",
+                "name": "310"
+            },
+            {
+                "id": "29",
+                "second_id": "93",
+                "third_id": "222807",
+                "name": "309"
+            },
+            {
+                "id": "30",
+                "second_id": "93",
+                "third_id": "222737",
+                "name": "308"
+            },
+            {
+                "id": "31",
+                "second_id": "93",
+                "third_id": "222666",
+                "name": "307"
+            },
+            {
+                "id": "32",
+                "second_id": "93",
+                "third_id": "222595",
+                "name": "306"
+            },
+            {
+                "id": "33",
+                "second_id": "93",
+                "third_id": "222525",
+                "name": "305"
+            },
+            {
+                "id": "34",
+                "second_id": "93",
+                "third_id": "222452",
+                "name": "304"
+            },
+            {
+                "id": "35",
+                "second_id": "93",
+                "third_id": "222382",
+                "name": "303"
+            },
+            {
+                "id": "36",
+                "second_id": "93",
+                "third_id": "222304",
+                "name": "302"
+            },
+            {
+                "id": "37",
+                "second_id": "93",
+                "third_id": "222235",
+                "name": "301"
+            },
+            {
+                "id": "38",
+                "second_id": "93",
+                "third_id": "222165",
+                "name": "300"
+            },
+            {
+                "id": "39",
+                "second_id": "93",
+                "third_id": "222093",
+                "name": "299"
+            },
+            {
+                "id": "40",
+                "second_id": "93",
+                "third_id": "222023",
+                "name": "298"
+            },
+            {
+                "id": "41",
+                "second_id": "93",
+                "third_id": "221951",
+                "name": "297"
+            },
+            {
+                "id": "42",
+                "second_id": "93",
+                "third_id": "221879",
+                "name": "296"
+            },
+            {
+                "id": "43",
+                "second_id": "93",
+                "third_id": "221802",
+                "name": "295"
+            },
+            {
+                "id": "44",
+                "second_id": "93",
+                "third_id": "221732",
+                "name": "294"
+            },
+            {
+                "id": "45",
+                "second_id": "93",
+                "third_id": "221662",
+                "name": "293"
+            },
+            {
+                "id": "46",
+                "second_id": "93",
+                "third_id": "221590",
+                "name": "292"
+            },
+            {
+                "id": "47",
+                "second_id": "93",
+                "third_id": "221520",
+                "name": "291"
+            },
+            {
+                "id": "48",
+                "second_id": "93",
+                "third_id": "221448",
+                "name": "290"
+            },
+            {
+                "id": "49",
+                "second_id": "93",
+                "third_id": "221376",
+                "name": "289"
+            },
+            {
+                "id": "50",
+                "second_id": "93",
+                "third_id": "221299",
+                "name": "288"
+            },
+            {
+                "id": "51",
+                "second_id": "93",
+                "third_id": "221229",
+                "name": "287"
+            },
+            {
+                "id": "52",
+                "second_id": "93",
+                "third_id": "221158",
+                "name": "286"
+            },
+            {
+                "id": "53",
+                "second_id": "93",
+                "third_id": "221086",
+                "name": "285"
+            },
+            {
+                "id": "54",
+                "second_id": "93",
+                "third_id": "221012",
+                "name": "284"
+            },
+            {
+                "id": "55",
+                "second_id": "93",
+                "third_id": "220941",
+                "name": "283"
+            },
+            {
+                "id": "56",
+                "second_id": "93",
+                "third_id": "220870",
+                "name": "282"
+            },
+            {
+                "id": "57",
+                "second_id": "93",
+                "third_id": "220794",
+                "name": "281"
+            },
+            {
+                "id": "58",
+                "second_id": "93",
+                "third_id": "220725",
+                "name": "280"
+            },
+            {
+                "id": "59",
+                "second_id": "93",
+                "third_id": "220655",
+                "name": "279"
+            },
+            {
+                "id": "60",
+                "second_id": "93",
+                "third_id": "220584",
+                "name": "278"
+            }
+        ]
+    },
+    "currentVolume": "2024|337"
+}
