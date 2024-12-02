@@ -203,7 +203,8 @@ if cookie.expires: h.append(("expires",
 ![image](https://github.com/user-attachments/assets/816311b7-5674-4d6b-9e49-b82c7fb68f9e)
 
 #### 实训2 分析学习通App客户端
-
+这部分难点在手机模拟器抓包上，写脚本是最简单的。
+![image](https://github.com/user-attachments/assets/be5ed5a5-0f45-4e05-a280-7b3513588584)
 
 
 
