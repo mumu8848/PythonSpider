@@ -44,15 +44,15 @@ DOWNLOAD_DELAY = 5
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    "myScrapy.middlewares.MyscrapySpiderMiddleware": 543,
-#}
+SPIDER_MIDDLEWARES = {
+   "myScrapy.middlewares.MyscrapySpiderMiddleware": 0,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "myScrapy.middlewares.MyscrapyDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+   "myScrapy.middlewares.MyscrapyDownloaderMiddleware": 310,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html

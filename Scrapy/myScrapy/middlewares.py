@@ -4,6 +4,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+import random
+import base64
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
@@ -101,3 +103,37 @@ class MyscrapyDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+
+class RandomUserAgent(object):
+    user_agent_list = [
+        "Mozilla/5.0(Macintosh;Intel Mac 0s X10 10 1)ApplewebKit/537.36 (KHTML,like Gecko)Chrome/41.0.2227.1 Safari/537.36",
+        "User-Agent:Mozilla/5.0(Macintosh;U;Intel Mac 0s x10 6 8;en-us) AppleWebKit/534.50(KHTM,like Gecko)Version/5.1 Safari/534.50",
+        "Mozilla/5.0(Macintosh;Intel Mac0sX1082)AppleWebKit/537.13 (KHTMLlike Gecko)Chrome/24.0.1290.1 Safari/537.13",
+        "Mozilla/5.0(compatible;MSIE9.0;WindowsNT6.1;Trident/5.0",
+        "Mozilla/5.0(Macintosh;IntelMacOSX10.6;rv:2.0.1)Gecko/20100101Firefox/4.0.1",
+        "Mozilla/5.0(windowsNT6.1;rv:2.0.1)Gecko/20100101Firefox/4.0.1",
+        "Mozilla/5.0(compatible;MSIE 10.0; windows NT 6.2;ARM; Trident/6.0)"
+        ]
+
+    def process_request(self,request,spider):
+
+        useragent = random.choice(self.user_agent_list)
+        request.headers.setdefault("User-Agent",useragent)
+
+class RandomProxy(object):
+    PROXIES = [
+        {'ip_port':'111.8.60.9:8123','user_passwd':'user1:pass1'},
+        {'ip_port':'101.71.27.120:80','user_passwd':'user2:pass2'},
+        {'ip_port':'122.96.59.104:80','user_passwd':'user3:pass3'},
+        {'ip_port':'122.224.249.122:8088','user_passwd':'user4:pass4'}
+    ]
+
+    def process_request(self,request,spider):
+        if proxy['user_pass'] is None:
+            request.meta['proxy'] = "http://" + proxy['ip_port']
+        else:
+            base64_userpasswd = base64.b64encode(proxy['user_passwd'])
+
+            request.headers['Proxy-Authorization'] = 'Basic' + base64_userpasswd
+            request.meta['proxy'] = "http://"+proxy['ip_port']
