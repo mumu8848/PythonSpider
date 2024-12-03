@@ -1,4 +1,4 @@
-# PythonSpider
+![image](https://github.com/user-attachments/assets/09687f9f-bea6-4714-931d-5fa9f18f2840)# PythonSpider
 
 ## urllib3库 使用效果截图
 
@@ -227,4 +227,22 @@ if cookie.expires: h.append(("expires",
 Scrapy startproject myScrapy D:\my_project\python-exp\PythonSpider\Scrapy\ # 在这之前先pip install scrapy
 ```
 ![image](https://github.com/user-attachments/assets/cdcbc5a5-2786-488a-ae03-c2bce3873521)
+
+### 成功写入数据库
+排坑指南：(**细看执行之后的日志调试信息**)
+通过报错信息定位到
+```shell
+Error writing to MySQL: Unable to find a usable engine; tried using: 'sqlalchemy'.
+```
+发现本地安装的sqlalchemy和pandas的版本不兼容，随后卸载当前sqlalchemy再重新安装对应可兼容的版本
+
+具体操作如下：
+```shell
+# 卸载旧版本的 sqlalchemy
+pip uninstall sqlalchemy
+# 安装符合要求的新版本 sqlalchemy
+pip install --upgrade "sqlalchemy>=1.4.16"
+```
+![image](https://github.com/user-attachments/assets/904fc6d7-16e1-4585-b7ad-8afa0ecd6080)
+
 
