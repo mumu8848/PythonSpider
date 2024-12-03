@@ -203,8 +203,28 @@ if cookie.expires: h.append(("expires",
 ![image](https://github.com/user-attachments/assets/816311b7-5674-4d6b-9e49-b82c7fb68f9e)
 
 #### 实训2 分析学习通App客户端
+这部分难点在手机模拟器抓包上，写脚本是最简单的。
+![image](https://github.com/user-attachments/assets/be5ed5a5-0f45-4e05-a280-7b3513588584)
 
 
+## Scrapy爬虫框架
+- 7个组件之间的数据流向图
+![image](https://github.com/user-attachments/assets/a3731a7b-0e18-4d5a-83f8-58bfae520e64)
+说明：
+数据流在Scrapy中由执行引擎控制，其基本步骤如下。
+1. 引擎打开一个网站，找到处理该网站的Spiders，并向该Spiders请求第一个要爬取的URL。
+2. 引擎将爬取请求(Requests)转发给调度器，调度器指挥进行下一步。
+3. 引擎从调度器获取下一个要爬取的请求。
+4. 调度器返回下一个要爬取的请求，通过下载器中间件（请求方向）将请求转发给下载器。
+5. 当网页下载完毕时，下载器会生成一个该网页的响应，并将其通过下载器中间件（响应方向）发送给引擎。
+6. 引擎从下载器中接收到响应并通过Spider中间件（输入方向）发送给Spiders处理。
+7. Spiders处理响应并返回爬取到的Items及（跟进）新的请求给引擎。
+8. 引擎将爬取到的Items（Spiders返回的）给Item Pipelines，将请求（Spiders返回的）给调度器。
+9. 重复步骤"2"直至调度器中没有更多的URL请求，引擎关闭该网站。
 
-
+### 创建Scrapy爬虫项目
+```shell
+Scrapy startproject myScrapy D:\my_project\python-exp\PythonSpider\Scrapy\ # 在这之前先pip install scrapy
+```
+![image](https://github.com/user-attachments/assets/cdcbc5a5-2786-488a-ae03-c2bce3873521)
 
