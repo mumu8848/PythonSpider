@@ -222,3 +222,9 @@ if cookie.expires: h.append(("expires",
 8. 引擎将爬取到的Items（Spiders返回的）给Item Pipelines，将请求（Spiders返回的）给调度器。
 9. 重复步骤"2"直至调度器中没有更多的URL请求，引擎关闭该网站。
 
+### 创建Scrapy爬虫项目
+```shell
+Scrapy startproject myScrapy D:\my_project\python-exp\PythonSpider\Scrapy\ # 在这之前先pip install scrapy
+```
+![image](https://github.com/user-attachments/assets/cdcbc5a5-2786-488a-ae03-c2bce3873521)
+
