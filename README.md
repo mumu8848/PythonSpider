@@ -1,6 +1,9 @@
 # PythonSpider
 本项目是基于《Python网络爬虫技术（第2版）》的爬虫学习笔记
 ![image](https://github.com/user-attachments/assets/b5afb630-de5f-4bfa-9fc2-c7e5649bf0e3)
+以及《实战Python网络爬虫》
+![image](https://github.com/user-attachments/assets/3e96418c-ee2a-4340-8e61-7502e453cd8f)
+
 仅作学习分享
 
 ## urllib3库 使用效果截图
